@@ -1,0 +1,12 @@
+﻿  Main.cpp
+C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\sudoku\Source\Main.cpp(51,37): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=int
+          ]
+C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\sudoku\Source\Main.cpp(51,30): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=int
+          ]
+  sudoku.vcxproj -> C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\x64\Debug\sudoku.exe

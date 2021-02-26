@@ -1,0 +1,22 @@
+﻿Main.obj : error LNK2019: symbole externe non résolu "public: __thiscall sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QAE@PBDABVlocale@std@@@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@QAE@III@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall sf::Window::close(void)" (?close@Window@sf@@QAEXXZ) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: bool __thiscall sf::Window::isOpen(void)const " (?isOpen@Window@sf@@QBE_NXZ) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: bool __thiscall sf::Window::pollEvent(class sf::Event &)" (?pollEvent@Window@sf@@QAE_NAAVEvent@2@@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall sf::Window::display(void)" (?display@Window@sf@@QAEXXZ) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: __thiscall sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (??0Color@sf@@QAE@EEEE@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: virtual __thiscall sf::Shape::~Shape(void)" (??1Shape@sf@@UAE@XZ) référencé dans la fonction "public: virtual __thiscall sf::CircleShape::~CircleShape(void)" (??1CircleShape@sf@@UAE@XZ)
+Main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall sf::Shape::setFillColor(class sf::Color const &)" (?setFillColor@Shape@sf@@QAEXABVColor@2@@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: __thiscall sf::CircleShape::CircleShape(float,unsigned int)" (??0CircleShape@sf@@QAE@MI@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)" (?clear@RenderTarget@sf@@QAEXABVColor@2@@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) référencé dans la fonction _main
+Main.obj : error LNK2019: symbole externe non résolu "public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UAE@XZ) référencé dans la fonction _main
+Main.obj : error LNK2001: symbole externe non résolu "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Main.obj : error LNK2001: symbole externe non résolu "public: static class sf::Color const sf::Color::Green" (?Green@Color@sf@@2V12@B)
+C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\bin\SFML\lib\sfml-audio-d.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\bin\SFML\lib\sfml-network-d.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\bin\SFML\lib\sfml-graphics-d.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\bin\SFML\lib\sfml-window-d.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\bin\SFML\lib\sfml-system-d.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\User\Desktop\Projet\C++\Sudoku\sudoku\Debug\sudoku.exe : fatal error LNK1120: 16 externes non résolus
